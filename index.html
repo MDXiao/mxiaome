@@ -1,65 +1,101 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
 
-    <title> Michael Xiao </title>
+    <!-- SITE TITLE -->
+    <title>Michael Xiao</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon.ico">
+
+	<!-- Touch Icons - iOS and Android 2.1+ -->
+ 	<link rel="apple-touch-icon" href="img/apple-favicon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone4.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
+  </head>
   <body>
 
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="/resume.pdf" role="button">Resume</a></li>
-            <li role="presentation"><a href="/portfolio.html">Portfolio</a></li>
-          </ul>
+
+<!-- Nav Bar -->
+   <header class="nav-wrapper effect">
+        <nav class="navbar-custom">
+            <div class="container">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bm-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand effect" href="index.html">Michael Xiao</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bm-navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home" class="scroll effect active" data-speed="800">HOME</a></li>
+                        <li><a href="#about" class="scroll effect" data-speed="1000">ABOUT</a></li>
+                        <li><a href="#projects" class="scroll effect" data-speed="1700">PROJECTS</a></li>
+                    </ul>
+                </div><!-- End navbar-collapse -->
+
+            </div><!-- End container -->
         </nav>
-        <h3 class="text-muted">Michael Xiao</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>Currently under construction!</h1>
-        <p class="lead">Hi, I'm Michael Xiao and welcome to my website!</p>
-       <!-- sign up button -->
-	<!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-      </div> -->
-
-      
-
-    </div> <!-- /container -->
+    </header>
+<!-- End Nav Bar -->
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<!-- Top Title Page -->
+<section id="home" class="home-1 parallax one-page-section">
+        <div class="page-table">
+            <div class="table-cell text-center">
+                <div class="avatar-hero">
+                    <img src="img/Headshot2.jpg" alt="avatar-hero">
+                </div>
+                <h1>Hi, I'm Michael Xiao</h1>
+                <h2 class="typer-title">placeholder</h2>
+                <a href="#about" class="scroll home-s-btn hor-center"><span class="dot center"></span></a>
+            </div>
+        </div>
+    </section>
+<!-- End Top Title Page -->
+
+<!-- Typer script at index-->
+     <script src="js/jquery.typer.js"></script>
+
+</body>
+
 </html>
-
