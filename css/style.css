@@ -148,7 +148,7 @@ img.svg{
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
-	background-color: #1E3044;
+	background-color: #1C2329;
 	z-index: 100;
 	
 	-webkit-transition: all .3s ease;
@@ -161,7 +161,7 @@ img.svg{
 .arlo_tm_leftpart_wrap.hide{left: -300px;}
 .arlo_tm_leftpart_wrap.opened{left: -300px;}
 .arlo_tm_leftpart_wrap .logo_wrap{
-	background-color: #1E3044;
+	background-color: #1C2329;
 	padding: 50px 20px;
 	width: 100%;
 	float: left;
