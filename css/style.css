@@ -1917,7 +1917,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.mx_intro_universal_bg_wrap .bg_wrap .overlay_image.top{background-image: url(../img/pearl-street-mall.jpg);}
+.mx_intro_universal_bg_wrap .bg_wrap .overlay_image.top{background-image: url(../img/pearl-street-mall-min.jpg);}
 .mx_intro_universal_bg_wrap .bg_wrap .overlay_color.top{background-color: rgba(10,4,37,.85);}
 .mx_intro_universal_bg_wrap .content.top{height: 75vh;}
 .mx_intro_universal_bg_wrap .content.top .main_titles_wrap{
