@@ -379,7 +379,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.mx_universal_box_wrap .overlay_image.hero{background-image: url(../img/pearl-street-mall.jpg);}
+.mx_universal_box_wrap .overlay_image.hero{background-image: url(../img/pearl-street-mall-min.jpg);}
 .mx_universal_box_wrap .overlay_color.hero{background-color: rgba(30,48,68,.8);}
 .mx_universal_box_wrap .content.hero{height: 100vh;}
 .mx_hero_header_wrap .inner_content{
